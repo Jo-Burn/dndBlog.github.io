@@ -1,0 +1,112 @@
+body {
+    background-color: wheat;
+}
+h1 {
+    font-size: 50px;
+}
+#main {
+    background-color: grey;
+    position: absolute;
+    left: 23vw;
+    top: 10vh;
+    align-items: center;
+    text-align: center;
+    width: 900px;
+    height: fit-content;
+}
+p {
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: left;
+}
+.bold {
+    font-weight: bold;
+}
+footer {
+    background-color: grey;
+    position: absolute;
+    left: 23vw;
+    align-items: center;
+    text-align: center;
+    width: 900px;
+    top: 145vh;
+}
+img {
+    box-shadow: 4px 4px black;
+}
+ul {
+    position: absolute;
+    left: 23vw;
+    background-color: black;
+    width: 860px;
+}
+li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+a {
+    display: block;
+    padding: 8px;    
+    font-size: 47px;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    background-color: darkgray;
+}
+.flash {
+    background-color: #90EE90;
+    opacity: 75%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: wheat;
+        width: min-content;        
+    }
+    #main {
+        background-color: grey;
+        position: relative;
+        left: 23vw;
+        align-items: left;
+        text-align: center;
+        width: 100%;
+        height: fit-content;
+    }
+    footer {
+        background-color: grey;
+        position: absolute;
+        left: 24.3vw;
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        top: 187.5vh;
+    }
+    img {
+      width: 400px;
+      height: 300px;
+      box-shadow: 0px 0px black;
+    }
+    ul {
+        position: absolute;
+        left: 24.3vw;
+        background-color: black;
+        width: 360px;
+    }
+    li {
+        display: inline;
+        float: left;
+        padding: 10px;
+    }
+    a {
+        display: block;
+        padding: 8px;    
+        font-size: 22px;
+        color: white;
+        text-decoration: none;
+    }
+    a:hover {
+        background-color: darkgray;
+    }
+} 
